@@ -14,12 +14,10 @@ enum class Cell {X, O, Empty};
 class TicTacToe
 {
 public:
-
     std::vector<Cell> CreateBoard(); // Create an empty 3 x 3 board.
 
 private:
-        int turn;
-		Cell board_[3][3];
+	Cell board_[3][3];
 };
 
 #endif
