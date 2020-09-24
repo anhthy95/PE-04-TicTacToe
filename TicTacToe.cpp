@@ -6,28 +6,29 @@
 #include <string>
 #include <iostream>
 #include <vector>
+
 #include <sstream>
 #include <stdio.h>
 #include <ctype.h>
 
-
 //linked file
 #include "TicTacToe.h"
 
+
 using namespace std;
+
 
 //-----------FUNCTIONS-------------//
 
 /** 
 	Create an "empty" 3x3 matrix
 */
-TicTacToe::CreateBoard(){
-	turn = X ;
-	int boardSize = get_size();
 
-  	for(int i = 0; i<boardSize; i++){
-  	  for(int j = 0; j<boardSize; j++){
-    	  board_[i][j] = Cell::blank ;
-  	  }
+std::vector<Cell> TicTacToe::CreateBoard(){
+	for(int row = 0; row < 4; row++){
+		for(int col = 0; col < 4; col++){
+			board_[row][col] = Cell::Empty;
+		}
 	}
 }
+

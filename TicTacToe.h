@@ -5,33 +5,26 @@
 	Cell enum to represent spaces on the board
 */
 
-enum Cell
-{
-    X = 'X',
-    O = 'O',
-    Invalid = '?',
-    blank = '--'
-};
+
+enum class Cell {X, O, Empty};
+
 
 /**
 	Class for 3x3 Tic Tac Toe board game
 */
 
-class TicTacToe
-{
-	private:
-		Cell board_[boardSize][boardSize];
-		Cell turn;
 
-		int size_;
+class TicTacToe {
+	
+public:
+	std::vector<Cell> CreateBoard(); // Create an empty 3 x 3 board.
 
-	public:
-		//Constructor create an empty board 3x3
-		CreateBoard(); 
-
-		int get_size() const {return 3; }  // you should be able to change the size of your 
-
-
-}
+private:
+	Cell board_[3][3];
+	
+};
 
 #endif
+
+
+
