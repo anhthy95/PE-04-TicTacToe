@@ -18,7 +18,7 @@
 using namespace std;
 
 int main(){
-	
+
 	TicTacToe Game;
 	Game.CreateBoard();
 

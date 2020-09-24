@@ -5,11 +5,14 @@
 	Cell enum to represent spaces on the board
 */
 
+
 enum class Cell {X, O, Empty};
+
 
 /**
 	Class for 3x3 Tic Tac Toe board game
 */
+
 
 class TicTacToe {
 	
@@ -22,5 +25,6 @@ private:
 };
 
 #endif
+
 
 
