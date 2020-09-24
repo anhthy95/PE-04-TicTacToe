@@ -5,22 +5,17 @@
 //header
 #include <string>
 #include <iostream>
-#include <vector>
-#include <sstream>
-#include <stdio.h>
-#include <ctype.h>
 
 
 //linked file
 #include "TicTacToe.h"
 #include "TicTacToe.cpp"
 
-using namespace std;
 
 int main(){
-
-	TicTacToe Game;
-	Game.CreateBoard();
+    TicTacToe game;
+    game.CreateBoard();
+    game.DisplayBoard();
 
 	return 0;
 }
