@@ -7,8 +7,6 @@
 #include <iostream>
 #include <vector>
 
-#include <sstream>
-#include <stdio.h>
 
 //linked file
 #include "TicTacToe.h"
@@ -33,21 +31,23 @@ void TicTacToe::CreateBoard(){
 
 void TicTacToe::DisplayBoard(){
 	for (int i = 0; i < 3; i++){
-		for (int j = 0; j < 3; i++){
+		for (int j = 0; j < 3; j++){
 			if (board_[i][j] == Cell::Empty){
-				std::cout<<"| "<<  "  "<<" |";
+				cout<<"| "<<  "  "<<" |";
 			}
 			if (board_[i][j] == Cell::X){
-				std::cout<<"| "<<  "X" <<" |";
+				cout<<"| "<<  "X" <<" |";
 
 			}
 			if (board_[i][j] == Cell::O){
-				std::cout<<"| "<<  "O" <<" |";
+				cout<<"| "<<  "O" <<" |";
 
 			}
 		}
+		cout<<"\n";
 	}
-	cout<<"\n";
+
+	
 
 }
 

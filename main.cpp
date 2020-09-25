@@ -5,8 +5,6 @@
 //header
 #include <string>
 #include <iostream>
-#include <vector>
-#include <sstream>
 
 
 //linked file
@@ -16,9 +14,9 @@
 
 int main(){
 
-	TicTacToe Game;
-	Game.CreateBoard();
-	Game.DisplayBoard();
+	TicTacToe *p = new TicTacToe;
+	p->CreateBoard();
+	p->DisplayBoard();
 
 	return 0;
 }
