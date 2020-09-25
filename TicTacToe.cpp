@@ -35,7 +35,7 @@ std::vector<Cell> TicTacToe::CreateBoard(){
 void DisplayBoard(std::vector<Cell> vec){
 	for (int i = 0; i < 4; i+++){
 		for (int j = 0; j < 4; i+++){
-			std::cout<<"| "<<vec[i][j]<<" |";
+			std::cout<<"| "<<vec[i][j] <<" |";
 		}
 	}
 	cout<<"\n"
