@@ -44,3 +44,11 @@ void TicTacToe::DisplayBoard() {
         std::cout << std::endl;
     }
 }
+
+void TicTacToe::GetPlayerChoice() {
+    std::cout << "Please choose the location that you want to mark." << std::endl;
+    std::cout << "Row: " << std::endl;
+    std::cin >> row_;
+    std::cout << "Col: " << std::endl;
+    std::cin >> col_;
+}
