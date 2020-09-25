@@ -7,28 +7,40 @@
 #include <iostream>
 #include <vector>
 
-#include <sstream>
-#include <stdio.h>
-#include <ctype.h>
+
 
 //linked file
 #include "TicTacToe.h"
-
-
-using namespace std;
-
 
 //-----------FUNCTIONS-------------//
 
 /** 
 	Create an "empty" 3x3 matrix
 */
-
-std::vector<Cell> TicTacToe::CreateBoard(){
-	for(int row = 0; row < 4; row++){
-		for(int col = 0; col < 4; col++){
-			board_[row][col] = Cell::Empty;
-		}
-	}
+void TicTacToe::CreateBoard() {
+  	for(int row = 0; row < 4; row++){
+  	    for(int col = 0; col < 4; col++){
+    	  board_[row][col] = Cell::Empty;
+  	    }
+  	}
 }
 
+void TicTacToe::DisplayBoard() {
+    for(int row = 0; row < 3; row++){
+        for(int col = 0; col < 3; col++){
+            if (board_[row][col] == Cell::Empty) {
+                std::cout << "⬜️ ";
+            }
+            else if (board_[row][col] == Cell::X) {
+                std::cout << "✖️️ ";
+            }
+            else if (board_[row][col] == Cell::O) {
+                std::cout << "🔘️ ";
+            }
+            else {
+                std::cout << "⬜️ ";
+            }
+        }
+        std::cout << std::endl;
+    }
+}
