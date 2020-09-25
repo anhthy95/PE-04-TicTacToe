@@ -16,6 +16,7 @@ int main(){
     TicTacToe game;
     game.CreateBoard();
     game.DisplayBoard();
+    game.GetPlayerChoice(); //just to test
 
 	return 0;
 }

@@ -51,4 +51,6 @@ void TicTacToe::GetPlayerChoice() {
     std::cin >> row_;
     std::cout << "Col: " << std::endl;
     std::cin >> col_;
+
+    std::cout << "You have chosen to mark cell at: " << row_ <<" ; " << col_ << std::endl;
 }
