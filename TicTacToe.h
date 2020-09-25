@@ -13,8 +13,10 @@ enum class Cell {X, O, Empty};
 
 class TicTacToe {
 public:
+
     void CreateBoard(); // Create an empty 3 x 3 board.
-    void DisplayBoard();
+    void DisplayBoard(); //Function to print the board to the screen
+
 
 private:
     int turn;

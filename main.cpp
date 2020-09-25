@@ -13,9 +13,12 @@
 
 
 int main(){
-    TicTacToe game;
-    game.CreateBoard();
-    game.DisplayBoard();
+
+
+	TicTacToe *p = new TicTacToe;
+	p->CreateBoard();
+	p->DisplayBoard();
+
 
 	return 0;
 }
