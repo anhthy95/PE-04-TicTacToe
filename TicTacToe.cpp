@@ -9,7 +9,6 @@
 
 #include <sstream>
 #include <stdio.h>
-#include <ctype.h>
 
 //linked file
 #include "TicTacToe.h"
@@ -24,20 +23,31 @@ using namespace std;
 	Create an "empty" 3x3 matrix
 */
 
-std::vector<Cell> TicTacToe::CreateBoard(){
-	for(int row = 0; row < 4; row++){
-		for(int col = 0; col < 4; col++){
+void TicTacToe::CreateBoard(){
+	for(int row = 0; row < 3; row++){
+		for(int col = 0; col < 3; col++){
 			board_[row][col] = Cell::Empty;
 		}
 	}
 }
 
-void DisplayBoard(std::vector<Cell> vec){
-	for (int i = 0; i < 4; i+++){
-		for (int j = 0; j < 4; i+++){
-			std::cout<<"| "<<vec[i][j]<<" |";
+void TicTacToe::DisplayBoard(){
+	for (int i = 0; i < 3; i++){
+		for (int j = 0; j < 3; i++){
+			if (board_[i][j] == Cell::Empty){
+				std::cout<<"| "<<  "  "<<" |";
+			}
+			if (board_[i][j] == Cell::X){
+				std::cout<<"| "<<  "X" <<" |";
+
+			}
+			if (board_[i][j] == Cell::O){
+				std::cout<<"| "<<  "O" <<" |";
+
+			}
 		}
 	}
-	cout<<"\n"
+	cout<<"\n";
+
 }
 
