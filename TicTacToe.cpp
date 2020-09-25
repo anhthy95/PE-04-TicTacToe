@@ -43,6 +43,7 @@ void TicTacToe::DisplayBoard(){
 				cout<<"| "<<  "O" <<" |";
 
 			}
+
 		}
 		cout<<"\n";
 	}
