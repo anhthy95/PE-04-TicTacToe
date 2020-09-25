@@ -15,13 +15,19 @@ class TicTacToe {
 public:
 
     void CreateBoard(); // Create an empty 3 x 3 board.
-    void DisplayBoard(); //Function to print the board to the screen
+    void DisplayBoard();
+    void GetPlayerChoice();
+
 
 
 private:
-    int turn;
+    int turn_;
+    int row_;
+    int col_;
     Cell board_[3][3];
 };
+
+
 
 #endif
 

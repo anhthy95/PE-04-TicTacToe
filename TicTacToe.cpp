@@ -46,9 +46,13 @@ void TicTacToe::DisplayBoard() {
     }
 }
 
+void TicTacToe::GetPlayerChoice() {
+    std::cout << "Please choose the location that you want to mark." << std::endl;
+    std::cout << "Row: " << std::endl;
+    std::cin >> row_;
+    std::cout << "Col: " << std::endl;
+    std::cin >> col_;
 
-	
-
-
-
+    std::cout << "You have chosen to mark cell at: " << row_ <<" ; " << col_ << std::endl;
+}
 
