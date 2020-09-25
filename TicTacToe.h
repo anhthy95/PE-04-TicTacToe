@@ -18,7 +18,7 @@ class TicTacToe {
 	
 public:
 	std::vector<Cell> CreateBoard(); // Create an empty 3 x 3 board.
-
+	void DisplayBoard(std::vector<Cell> vec);
 private:
 	Cell board_[3][3];
 	
