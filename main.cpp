@@ -3,7 +3,6 @@
 //CSCI 3010 - PE 04 - Tic Tac Toe
 
 //header
-#include <string>
 #include <iostream>
 
 
