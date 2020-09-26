@@ -48,6 +48,7 @@ void TicTacToe::DisplayBoard() {
 
 void TicTacToe::GetPlayerChoice() {
     bool check = false;
+<<<<<<< HEAD
     int row, col;
 
     while (!check){
@@ -70,6 +71,26 @@ void TicTacToe::GetPlayerChoice() {
             std::cout << "The cell is illegal, please choose again!" << std::endl;
             std::cout << std::endl;
         }
+=======
+    while (!check){
+    std::cout << "Please choose the location that you want to mark." << std::endl;
+    std::cout << "Row: " << std::endl;
+    std::cin >> row_;
+    std::cout << "Col: " << std::endl;
+    std::cin >> col_;
+
+    std::cout << "You have chosen to mark cell at: " << row_ <<" ; " << col_ << std::endl;
+
+    if (board_[row_][col_] == Cell::Empty){
+        check = true;
+    }
+    else {
+        check = false;
+        std::cout << "The cell is alreeady marker, choose empty cell please!"<< std::endl;
+    }
+
+
+>>>>>>> 9e37ba3044806f07d41bf87b87f6379f33c8d7b9
     }
 }
 
@@ -78,11 +99,13 @@ int TicTacToe::PlaceMarker(){
     //int row = row_ - 1; //coordinate starting at 1 in the game
     //int col = col_ - 1;
 
-        if ((board_[row_][col_] == Cell::Empty) && (turn_ == 1)) {
+
+        if ((board_[row_][col_] == Cell::Empty) && (turn_ == 1)){
             board_[row_][col_] = Cell::X;
             turn_ = 2;
         }
-        else if ((board_[row_][col_] == Cell::Empty) && (turn_ == 2)) {
+        else if ((board_[row_][col_] == Cell::Empty) && (turn_ == 2)){
+
             board_[row_][col_] = Cell::O;
             turn_ = 1;
         }    
@@ -101,5 +124,6 @@ void TicTacToe::GameStart() {
         GetPlayerChoice(); //just to test
         turn_ = PlaceMarker();
         i++;
+
     }
 }
