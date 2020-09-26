@@ -15,7 +15,7 @@
 int main(){
 
 	TicTacToe *p = new TicTacToe;
-	p->GameStart();
+	p->GameStart();    
 
 
 

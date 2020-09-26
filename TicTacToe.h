@@ -17,7 +17,7 @@ public:
     void CreateBoard(); // Create an empty 3 x 3 board.
     void DisplayBoard();
     void GetPlayerChoice();
-    void PlaceMarker(int turn_);
+   	int PlaceMarker();
     void GameStart();
 
 private:

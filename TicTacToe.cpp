@@ -70,18 +70,19 @@ void TicTacToe::GetPlayerChoice() {
 }
 
 
-void TicTacToe::PlaceMarker(int turn_){
-    int row = row_ = 1; //coordinate starting at 1 in the game
-    int col = col_ = 1;
+int TicTacToe::PlaceMarker(){
+    //int row = row_ - 1; //coordinate starting at 1 in the game
+    //int col = col_ - 1;
 
-        if ((board_[row][col] == Cell::Empty) && (turn_ == 1)){
-            board_[row][col] = Cell::X;
+        if ((board_[row_][col_] == Cell::Empty) && (turn_ == 1)){
+            board_[row_][col_] = Cell::X;
             turn_ = 2;
         }
-        else if ((board_[row][col] == Cell::Empty) && (turn_ == 2)){
-            board_[row_][col] = Cell::O;
+        else if ((board_[row_][col_] == Cell::Empty) && (turn_ == 2)){
+            board_[row_][col_] = Cell::O;
             turn_ = 1;
         }    
+    return turn_;
 }
 
 void TicTacToe::GameStart(){
@@ -91,11 +92,10 @@ void TicTacToe::GameStart(){
 
     int i = 0;
     while (i < 7){
-    DisplayBoard();
-
-    GetPlayerChoice(); //just to test
     std:: cout<< "Turn: "<< turn_ <<std::endl;
-    PlaceMarker(turn_);
+    DisplayBoard();
+    GetPlayerChoice(); //just to test
+    turn_ = PlaceMarker();
     i++;
 
     }
