@@ -16,6 +16,7 @@
 
 /** 
 	Create an "empty" 3x3 matrix
+    @param none
 */
 
 void TicTacToe::CreateBoard() {
@@ -26,6 +27,10 @@ void TicTacToe::CreateBoard() {
     }
 }
 
+/**
+    Print out the board
+    @param none
+*/
 void TicTacToe::DisplayBoard() {
     for(int row = 0; row < 3; row++){
         for(int col = 0; col < 3; col++){
@@ -47,6 +52,11 @@ void TicTacToe::DisplayBoard() {
     std::cout << std::endl;
 }
 
+/**
+    Take input of the marker location from the player and check for validity
+    @ param none
+
+*/
 void TicTacToe::GetPlayerChoice() {
     bool check = false;
 
@@ -76,6 +86,11 @@ void TicTacToe::GetPlayerChoice() {
     }
 }
 
+/**
+    Take the location and change the board state
+    @param none
+    @return next player's turn
+*/
 
 int TicTacToe::PlaceMarker(){
     //int row = row_ - 1; //coordinate starting at 1 in the game
@@ -91,6 +106,11 @@ int TicTacToe::PlaceMarker(){
     }
     return turn_;
 }
+
+/**
+    The function to run the game: Game flow
+    @param none
+*/
 
 void TicTacToe::GameStart() {
     //bool winnerCheck = false;

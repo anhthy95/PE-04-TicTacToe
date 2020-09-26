@@ -15,10 +15,10 @@ class TicTacToe {
 public:
 
     void CreateBoard(); // Create an empty 3 x 3 board.
-    void DisplayBoard();
-    void GetPlayerChoice();
-   	int PlaceMarker();
-    void GameStart();
+    void DisplayBoard(); //Prin the board
+    void GetPlayerChoice(); //Get user's input
+   	int PlaceMarker();  // Change the board based on user input
+    void GameStart();  //Game flow
 
 private:
     int turn_;
