@@ -1,3 +1,7 @@
+//Name: Person 1: Thy Nguyen 
+//Person 2: TianWei Zhao
+//CSCI 3010 - PE 04 - Tic Tac Toe
+
 #ifndef _TICTACTOEBOARD_
 #define _TICTACTOEBOARD_
 
@@ -30,5 +34,3 @@ private:
 
 
 #endif
-
-
