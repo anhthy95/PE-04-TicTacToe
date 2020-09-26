@@ -15,9 +15,7 @@
 int main(){
 
 	TicTacToe *p = new TicTacToe;
-	p->CreateBoard();
-	p->DisplayBoard();
-  p->GetPlayerChoice(); //just to test
+	p->GameStart();
 
 
 
