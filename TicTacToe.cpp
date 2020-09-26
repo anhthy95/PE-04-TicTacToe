@@ -19,11 +19,11 @@
 */
 
 void TicTacToe::CreateBoard() {
-  	for(int row = 0; row < 3; row++){
-  	    for(int col = 0; col < 3; col++){
-    	  board_[row][col] = Cell::Empty;
-  	    }
-  	}
+    for(int row = 0; row < 3; row++){
+        for(int col = 0; col < 3; col++){
+            board_[row][col] = Cell::Empty;
+        }
+    }
 }
 
 void TicTacToe::DisplayBoard() {
@@ -44,6 +44,7 @@ void TicTacToe::DisplayBoard() {
         }
         std::cout << std::endl;
     }
+    std::cout << std::endl;
 }
 
 void TicTacToe::GetPlayerChoice() {
@@ -80,21 +81,19 @@ int TicTacToe::PlaceMarker(){
     //int row = row_ - 1; //coordinate starting at 1 in the game
     //int col = col_ - 1;
 
-
-        if ((board_[row_][col_] == Cell::Empty) && (turn_ == 1)){
-            board_[row_][col_] = Cell::X;
-            turn_ = 2;
-        }
-        else if ((board_[row_][col_] == Cell::Empty) && (turn_ == 2)){
-
-            board_[row_][col_] = Cell::O;
-            turn_ = 1;
-        }    
+    if ((board_[row_][col_] == Cell::Empty) && (turn_ == 1)) {
+        board_[row_][col_] = Cell::X;
+        turn_ = 2;
+    }
+    else if ((board_[row_][col_] == Cell::Empty) && (turn_ == 2)) {
+        board_[row_][col_] = Cell::O;
+        turn_ = 1;
+    }
     return turn_;
 }
 
 void TicTacToe::GameStart() {
-    //bool winnerCheck = false; 
+    //bool winnerCheck = false;
     CreateBoard();
     turn_ = 1;
     int i = 0;
@@ -107,4 +106,7 @@ void TicTacToe::GameStart() {
         i++;
 
     }
+
+    DisplayBoard();
+    std::cout << "Game is over!" << std::endl;
 }
