@@ -1,17 +1,3 @@
-{\rtf1\ansi\ansicpg936\cocoartf2513
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 AppleColorEmoji;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-
-\f0\fs24 \cf0 Player 1's turn\
-
-\f1 \uc0\u11036 \u65039 
-\f0  
-\f1 \uc0\u11036 \u65039 
-\f0  
-\f1 \uc0\u11036 \u65039 
 \f0  \
 
 \f1 \uc0\u11036 \u65039 
@@ -102,182 +88,98 @@ Player 2's turn\
 \f0  
 \f1 \uc0\u11036 \u65039 
 \f0  
-\f1 \uc0\u11036 \u65039 
-\f0  \
+Player 1's turn
+⬜️ ⬜️ ⬜️ 
+⬜️ ⬜️ ⬜️ 
+⬜️ ⬜️ ⬜️ 
 
-\f1 \uc0\u11036 \u65039 
-\f0  
-\f1 \uc0\u11036 \u65039 
-\f0  
-\f1 \uc0\u11036 \u65039 
-\f0  \
-\
-Please choose the cell that you want to mark.\
-Row: 2\
-Col: 1\
-You have chosen to mark cell at: (2 , 1).\
-\
-Player 1's turn\
+Please choose the cell that you want to mark.
+Row: 1
+Col: 1
+You have chosen to mark cell at: (1 , 1).
 
-\f1 \uc0\u10006 \u65039 \u65039 
-\f0  
-\f1 \uc0\u55357 \u56600 \u65039 
-\f0  
-\f1 \uc0\u10006 \u65039 \u65039 
-\f0  \
+Player 2's turn
+✖️️ ⬜️ ⬜️ 
+⬜️ ⬜️ ⬜️ 
+⬜️ ⬜️ ⬜️ 
 
-\f1 \uc0\u55357 \u56600 \u65039 
-\f0  
-\f1 \uc0\u11036 \u65039 
-\f0  
-\f1 \uc0\u11036 \u65039 
-\f0  \
+Please choose the cell that you want to mark.
+Row: 1
+Col: 2
+You have chosen to mark cell at: (1 , 2).
 
-\f1 \uc0\u11036 \u65039 
-\f0  
-\f1 \uc0\u11036 \u65039 
-\f0  
-\f1 \uc0\u11036 \u65039 
-\f0  \
-\
-Please choose the cell that you want to mark.\
-Row: 2\
-Col: 2\
-You have chosen to mark cell at: (2 , 2).\
-\
-Player 2's turn\
+Player 1's turn
+✖️️ 🔘️ ⬜️ 
+⬜️ ⬜️ ⬜️ 
+⬜️ ⬜️ ⬜️ 
 
-\f1 \uc0\u10006 \u65039 \u65039 
-\f0  
-\f1 \uc0\u55357 \u56600 \u65039 
-\f0  
-\f1 \uc0\u10006 \u65039 \u65039 
-\f0  \
+Please choose the cell that you want to mark.
+Row: 1
+Col: 3
+You have chosen to mark cell at: (1 , 3).
 
-\f1 \uc0\u55357 \u56600 \u65039 
-\f0  
-\f1 \uc0\u10006 \u65039 \u65039 
-\f0  
-\f1 \uc0\u11036 \u65039 
-\f0  \
+Player 2's turn
+✖️️ 🔘️ ✖️️ 
+⬜️ ⬜️ ⬜️ 
+⬜️ ⬜️ ⬜️ 
 
-\f1 \uc0\u11036 \u65039 
-\f0  
-\f1 \uc0\u11036 \u65039 
-\f0  
-\f1 \uc0\u11036 \u65039 
-\f0  \
-\
-Please choose the cell that you want to mark.\
-Row: 2\
-Col: 3\
-You have chosen to mark cell at: (2 , 3).\
-\
-Player 1's turn\
+Please choose the cell that you want to mark.
+Row: 2
+Col: 1
+You have chosen to mark cell at: (2 , 1).
 
-\f1 \uc0\u10006 \u65039 \u65039 
-\f0  
-\f1 \uc0\u55357 \u56600 \u65039 
-\f0  
-\f1 \uc0\u10006 \u65039 \u65039 
-\f0  \
+Player 1's turn
+✖️️ 🔘️ ✖️️ 
+🔘️ ⬜️ ⬜️ 
+⬜️ ⬜️ ⬜️ 
 
-\f1 \uc0\u55357 \u56600 \u65039 
-\f0  
-\f1 \uc0\u10006 \u65039 \u65039 
-\f0  
-\f1 \uc0\u55357 \u56600 \u65039 
-\f0  \
+Please choose the cell that you want to mark.
+Row: 2
+Col: 2
+You have chosen to mark cell at: (2 , 2).
 
-\f1 \uc0\u11036 \u65039 
-\f0  
-\f1 \uc0\u11036 \u65039 
-\f0  
-\f1 \uc0\u11036 \u65039 
-\f0  \
-\
-Please choose the cell that you want to mark.\
-Row: 3\
-Col: 1\
-You have chosen to mark cell at: (3 , 1).\
-\
-Player 2's turn\
+Player 2's turn
+✖️️ 🔘️ ✖️️ 
+🔘️ ✖️️ ⬜️ 
+⬜️ ⬜️ ⬜️ 
 
-\f1 \uc0\u10006 \u65039 \u65039 
-\f0  
-\f1 \uc0\u55357 \u56600 \u65039 
-\f0  
-\f1 \uc0\u10006 \u65039 \u65039 
-\f0  \
+Please choose the cell that you want to mark.
+Row: 2
+Col: 3
+You have chosen to mark cell at: (2 , 3).
 
-\f1 \uc0\u55357 \u56600 \u65039 
-\f0  
-\f1 \uc0\u10006 \u65039 \u65039 
-\f0  
-\f1 \uc0\u55357 \u56600 \u65039 
-\f0  \
+Player 1's turn
+✖️️ 🔘️ ✖️️ 
+🔘️ ✖️️ 🔘️ 
+⬜️ ⬜️ ⬜️ 
 
-\f1 \uc0\u10006 \u65039 \u65039 
-\f0  
-\f1 \uc0\u11036 \u65039 
-\f0  
-\f1 \uc0\u11036 \u65039 
-\f0  \
-\
-Please choose the cell that you want to mark.\
-Row: 3\
-Col: 2\
-You have chosen to mark cell at: (3 , 2).\
-\
-Player 1's turn\
+Please choose the cell that you want to mark.
+Row: 3
+Col: 1
+You have chosen to mark cell at: (3 , 1).
 
-\f1 \uc0\u10006 \u65039 \u65039 
-\f0  
-\f1 \uc0\u55357 \u56600 \u65039 
-\f0  
-\f1 \uc0\u10006 \u65039 \u65039 
-\f0  \
+Player 2's turn
+✖️️ 🔘️ ✖️️ 
+🔘️ ✖️️ 🔘️ 
+✖️️ ⬜️ ⬜️ 
 
-\f1 \uc0\u55357 \u56600 \u65039 
-\f0  
-\f1 \uc0\u10006 \u65039 \u65039 
-\f0  
-\f1 \uc0\u55357 \u56600 \u65039 
-\f0  \
+Please choose the cell that you want to mark.
+Row: 3
+Col: 2
+You have chosen to mark cell at: (3 , 2).
 
-\f1 \uc0\u10006 \u65039 \u65039 
-\f0  
-\f1 \uc0\u55357 \u56600 \u65039 
-\f0  
-\f1 \uc0\u11036 \u65039 
-\f0  \
-\
-Please choose the cell that you want to mark.\
-Row: 3\
-Col: 3\
-You have chosen to mark cell at: (3 , 3).\
-\
+Player 1's turn
+✖️️ 🔘️ ✖️️ 
+🔘️ ✖️️ 🔘️ 
+✖️️ 🔘️ ⬜️ 
 
-\f1 \uc0\u10006 \u65039 \u65039 
-\f0  
-\f1 \uc0\u55357 \u56600 \u65039 
-\f0  
-\f1 \uc0\u10006 \u65039 \u65039 
-\f0  \
+Please choose the cell that you want to mark.
+Row: 3
+Col: 3
+You have chosen to mark cell at: (3 , 3).
 
-\f1 \uc0\u55357 \u56600 \u65039 
-\f0  
-\f1 \uc0\u10006 \u65039 \u65039 
-\f0  
-\f1 \uc0\u55357 \u56600 \u65039 
-\f0  \
+✖️️ 🔘️ ✖️️ 
+🔘️ ✖️️ 🔘️ 
+✖️️ 🔘️ ✖️️ 
 
-\f1 \uc0\u10006 \u65039 \u65039 
-\f0  
-\f1 \uc0\u55357 \u56600 \u65039 
-\f0  
-\f1 \uc0\u10006 \u65039 \u65039 
-\f0  \
-\
-Game is over!\
-}
+Game is over!
