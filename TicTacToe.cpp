@@ -49,6 +49,7 @@ void TicTacToe::DisplayBoard() {
 
 void TicTacToe::GetPlayerChoice() {
     bool check = false;
+
     int row, col;
 
     while (!check){
@@ -71,6 +72,7 @@ void TicTacToe::GetPlayerChoice() {
             std::cout << "The cell is illegal, please choose again!" << std::endl;
             std::cout << std::endl;
         }
+
     }
 }
 
@@ -102,6 +104,7 @@ void TicTacToe::GameStart() {
         GetPlayerChoice(); //just to test
         turn_ = PlaceMarker();
         i++;
+
     }
 
     DisplayBoard();
